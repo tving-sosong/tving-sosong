@@ -701,12 +701,7 @@
 
     showToast('모두싸인으로 이동합니다...');
     setTimeout(() => {
-      // 실제 배포 시 아래 주석 해제 후 모두싸인 링크로 교체
-      // const link = formPlan === 'pro'
-      //   ? 'https://modusign.co.kr/PAID_TEMPLATE'
-      //   : 'https://modusign.co.kr/FREE_TEMPLATE';
-      // window.open(link, '_blank');
-      window.location.href = 'tving_contract.html?plan=' + formPlan;
+      window.open('https://app.modusign.co.kr/magic-link/link/66969b20-739a-11f1-a8bc-cbbbe8c35954/authentication?shareType=URL', '_blank');
     }, 800);
   }
 
